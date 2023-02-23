@@ -48,7 +48,7 @@ describe ("GRADING DOM MANIPULATION TEST: ", function () {
    it ("Function properly validates text", function() {
       expect(studentFunctions.validateInput("")).toEqual("Empty");
       expect(studentFunctions.validateInput("asdf")).toEqual("Not a Number");
-      expect(studentFunctions.validateInput(10)).toEqual("Is a Number");
+      expect(studentFunctions.validateInput("10")).toEqual("Is a Number");
    })
 
    it ("Launch CheckList is ready to go", function() {
